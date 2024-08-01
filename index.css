@@ -1,3 +1,51 @@
-#heading {
-    color: red;
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid black;
+}
+
+.logo {
+    width: 100px;
+}
+
+.nav-items>ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.nav-items>ul>li {
+    padding: 10px;
+    margin: 10px;
+    font-size: 24px;
+
+}
+
+.res-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.res-card {
+    width: 200px;
+    height: 350px;
+    margin: 5px;
+    padding: 5px;
+}
+
+.res-card:hover {
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.search {
+    padding: 16px;
+}
+
+.res-logo {
+    width: 100%;
+}
+
+.filter-btn {
+    margin: 10px;
 }
